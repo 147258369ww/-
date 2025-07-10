@@ -1,0 +1,44 @@
+{
+  "name": "personal-blog-frontend",
+  "version": "1.0.0",
+  "description": "个人博客前端项目 - 采用苹果官网风格设计",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=5173 --host=localhost --open=/ --cors",
+    "start": "npm run dev",
+    "build": "echo 'Building project...' && npm run minify",
+    "minify": "echo 'Minifying files...'",
+    "test": "echo 'Running tests...'",
+    "lint": "echo 'Linting code...'",
+    "serve": "live-server --port=5173 --host=localhost --cors",
+    "clean": "echo 'Cleaning build files...'"
+  },
+  "keywords": [
+    "blog",
+    "frontend",
+    "javascript",
+    "tailwindcss",
+    "responsive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/personal-blog-frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/personal-blog-frontend/issues"
+  },
+  "homepage": "https://yourusername.github.io/personal-blog-frontend"
+}
